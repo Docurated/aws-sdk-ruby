@@ -1475,6 +1475,73 @@
         "https": true,
         "hostname": "swf.us-gov-west-1.amazonaws.com"
       }
+    },
+    "us-gov-east-1": {
+      "monitoring": {
+        "http": false,
+        "https": true,
+        "hostname": "monitoring.us-gov-east-1.amazonaws.com"
+      },
+      "dynamodb": {
+        "http": false,
+        "https": true,
+        "hostname": "dynamodb.us-gov-east-1.amazonaws.com"
+      },
+      "ec2": {
+        "http": false,
+        "https": true,
+        "hostname": "ec2.us-gov-east-1.amazonaws.com"
+      },
+      "elasticmapreduce": {
+        "http": true,
+        "https": true,
+        "hostname": "elasticmapreduce.us-gov-east-1.amazonaws.com"
+      },
+      "rds": {
+        "http": false,
+        "https": true,
+        "hostname": "rds.us-gov-east-1.amazonaws.com"
+      },
+      "sns": {
+        "http": true,
+        "https": true,
+        "hostname": "sns.us-gov-east-1.amazonaws.com"
+      },
+      "sqs": {
+        "http": true,
+        "https": true,
+        "hostname": "sqs.us-gov-east-1.amazonaws.com"
+      },
+      "s3": {
+        "http": true,
+        "https": true,
+        "hostname": "s3-us-gov-east-1.amazonaws.com"
+      },
+      "autoscaling": {
+        "http": true,
+        "https": true,
+        "hostname": "autoscaling.us-gov-east-1.amazonaws.com"
+      },
+      "iam": {
+        "http": false,
+        "https": true,
+        "hostname": "iam.us-gov.amazonaws.com"
+      },
+      "sts": {
+        "http": false,
+        "https": true,
+        "hostname": "sts.us-gov-east-1.amazonaws.com"
+      },
+      "elasticloadbalancing": {
+        "http": true,
+        "https": true,
+        "hostname": "elasticloadbalancing.us-gov-east-1.amazonaws.com"
+      },
+      "swf": {
+        "http": false,
+        "https": true,
+        "hostname": "swf.us-gov-east-1.amazonaws.com"
+      }
     }
   },
   "services": {

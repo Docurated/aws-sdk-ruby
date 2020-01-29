@@ -46,6 +46,7 @@ AWS::Core::Configuration.module_eval do
       sa-east-1
       eu-west-1
       us-gov-west-1
+      us-gov-east-1
     )
     if value
       value
