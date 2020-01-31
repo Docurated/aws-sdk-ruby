@@ -23,7 +23,11 @@ module AWS
       end
 
       def detect_region_and_retry(response, &retry_block)
-        updgrade_to_v4(response, 'us-east-1')
+        if @region.match(/(us-gov-[a-z]*-\d+)/)
+          updgrade_to_v4(response, @region)
+        else
+          updgrade_to_v4(response, 'us-east-1')
+        end
         yield
         return if response.http_response.status == 200
         actual_region = region_from_location_header(response)
